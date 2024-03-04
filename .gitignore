@@ -1,32 +1,6 @@
 node_modules
 .DS_Store
 
-# activities
-02-Advanced-CSS/01-Activities/11-Ins_CSS-Resets
-02-Advanced-CSS/01-Activities/12-Stu_CSS-Resets
-02-Advanced-CSS/01-Activities/13-Ins_Typography
-02-Advanced-CSS/01-Activities/14-Stu_Typography
-02-Advanced-CSS/01-Activities/15-Ins_Pseudo-Classes
-02-Advanced-CSS/01-Activities/16-Stu_Pseudo-Classes
-02-Advanced-CSS/01-Activities/17-Ins_Pseudo-Elements
-02-Advanced-CSS/01-Activities/18-Stu_Pseudo-Elements
-02-Advanced-CSS/01-Activities/19-Ins_Form-Styles
-02-Advanced-CSS/01-Activities/20-Stu_Custom-Forms
-02-Advanced-CSS/01-Activities/21-Ins_Wireframing
-02-Advanced-CSS/01-Activities/22-Stu_Wireframing
-02-Advanced-CSS/01-Activities/23-Ins_CSS-Selectors
-02-Advanced-CSS/01-Activities/24-Stu_CSS-Selectors
-02-Advanced-CSS/01-Activities/25-Ins_CSS-Variables
-02-Advanced-CSS/01-Activities/26-Stu_CSS-Variables
-02-Advanced-CSS/01-Activities/27-Evr_Git-Pull-Conflict
-02-Advanced-CSS/01-Activities/28-Stu_Mini-Project
-
-# solutions
-Solved
-
-# mini-project solution
-02-Advanced-CSS/01-Activities/28-Stu_Mini-Project/Main
-
 # homework solutions
 01-HTML-Git-CSS/02-Challenge/Main
 02-Advanced-CSS/02-Challenge/Main
