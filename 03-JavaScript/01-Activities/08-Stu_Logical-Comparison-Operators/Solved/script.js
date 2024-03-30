@@ -21,7 +21,7 @@ console.log(b === e);
 console.log(c > b);
 
 // d is less than 1 returns true
-console.log(d < 1);
+console.log(d  <1);
 
 // Use logical operators so all expressions below log to the console as true
 // Use || to return true

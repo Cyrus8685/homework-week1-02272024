@@ -8,12 +8,19 @@ let seven;
 
 // Insert comments to explain what each console log below will log to the console
 console.log(typeof one); 
-console.log(typeof two); 
+// Number
+console.log(typeof two);
+// String 
 console.log(typeof three); 
+//Boolean
 console.log(typeof four); 
+// Null
 console.log(typeof five);
+// Number
 console.log(typeof six);
+// String
 console.log(typeof seven);
+// Undefines
 
 five = "Hello!";
 six = false;
@@ -21,5 +28,8 @@ seven = 23;
 
 // Insert comments to explain what each console log below will log to the console
 console.log(typeof five);
+// String
 console.log(typeof six);
+// Boolean
 console.log(typeof seven);
+// Number

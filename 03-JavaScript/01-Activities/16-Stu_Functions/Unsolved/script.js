@@ -11,7 +11,20 @@ function isEqual(x, y) {
 }
 
 // Logs "They are equal in type and value"
-isEqual(10, 10);
+function isEqual(x, y); {
+   if ( x === y) {
+       console.log(`They are equal in type and value`);
+   }
+   else if (x==y) {
+        console.log(`They are equal in value`);
+   }
+    else {
+      console.log(`They are not equal`);
+    }
+    return;
+}
+
+
 
 // Refer to sample functions as needed!
 

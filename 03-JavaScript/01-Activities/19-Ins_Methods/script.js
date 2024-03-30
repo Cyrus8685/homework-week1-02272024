@@ -18,10 +18,12 @@ arithmeticOperators.push("%");
 // Logs array with element "%" added to end
 console.log(arithmeticOperators);
 
+
+
 // Returns selected elements as a new array.
 const logicalOperatorsSliced = logicalOperators.slice(0,2);
 
-// Logs new array
+// Logs new array1
 console.log(logicalOperatorsSliced);
 
 // The original array is unchanged
@@ -38,6 +40,8 @@ console.log(myString);
 
 // parseInt is a built in method that will convert a string into an integer:
 const convertedNum = parseInt(numString);
+
+console.log(convertedNum);
 // logs number
 console.log(typeof convertedNum);
 // the original string is unchanged

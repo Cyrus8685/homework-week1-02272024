@@ -1,6 +1,6 @@
 // TODO: What does 'this' refer to?
 console.log(this);
-
+//The Window
 // TODO: What does 'this' refer to?
 function helloThis() {
    console.log(`Inside this function, this is ${this}`);
