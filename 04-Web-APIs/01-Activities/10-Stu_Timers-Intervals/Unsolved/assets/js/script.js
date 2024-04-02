@@ -6,19 +6,33 @@ const message =
 const words = message.split(' ');
 
 function countdown() {
-  const timeLeft = 5;
+  var timeLeft = 5;
 
   // TODO: Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
   const timeInterval = setInterval(function () {
-    //
-    // YOUR CODE HERE
-    //
-  });
+    if (timeLeft > 1) {
+
+    timerEl.textContent = timeLeft + ' seconds remaining';
+
+    timeLeft--;
+
+    } else if (timeLeft === 1) {
+
+      timerEl.textContent = timeLeft + 'second remaining';
+      timeLeft--;
+    } else {
+       timerEl.textContent = '';
+      // Stops execution of 
+    clearInterval(timeInterval);
+
+    displayMessage ();
+    }
+},1000);
 }
 
 // Displays the message one word at a time
 function displayMessage() {
-  const wordCount = 0;
+  var wordCount = 0;
 
   // Uses the `setInterval()` method to call a function to be executed every 1000 milliseconds
   const msgInterval = setInterval(function () {

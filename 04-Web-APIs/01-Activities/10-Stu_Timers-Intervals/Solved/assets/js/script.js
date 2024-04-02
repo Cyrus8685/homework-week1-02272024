@@ -7,7 +7,7 @@ const words = message.split(' ');
 
 // Timer that counts down from 5
 function countdown() {
-  const timeLeft = 5;
+  var timeLeft = 5;
 
   // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
   const timeInterval = setInterval(function () {
@@ -34,7 +34,7 @@ function countdown() {
 
 // Displays the message one word at a time
 function displayMessage() {
-  const wordCount = 0;
+  var wordCount = 0;
 
   // Uses the `setInterval()` method to call a function to be executed every 1000 milliseconds
   const msgInterval = setInterval(function () {
